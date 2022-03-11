@@ -38,7 +38,7 @@ In main.py, which is for the deployment' the following are installed
 --------------------
 
 
-FAQS
+#FAQS
 --------------------
 1. Why is the accuracy rate so average?
    The prediction is efficient enough to give an accuary rate of approx 90 %. But during scraping the plot datas from wikipedia, we need to minimise the features in the training datasets. This happens since we use portstemmer for the plot exctracted. 
