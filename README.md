@@ -50,7 +50,7 @@ In main.py, which is for the deployment' the following are installed
 -----------------
 It's completed till the deplyment using fastapi
 
-#Acknowledgement
+#ACKNOWLEDGEMENT
 ----------------
 This project is done as a part of an event named Co-coder by Tinkerhub. It's a great opportunity to start with ML. 
 
