@@ -1,3 +1,12 @@
+.git
+.idea
+projectapp
+projectname
+rango
+db.sqlite3
+manage.py
+populate_rango.py
+requirements.txt
 astroid==2.3.3
 Click==7.0
 colorama==0.4.3
