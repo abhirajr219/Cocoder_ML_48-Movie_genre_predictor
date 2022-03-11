@@ -1,3 +1,9 @@
+ %%writefile models.py
+ from pydantic import BaseModel,conlist
+ from typing import List
+
+ class request_body(BaseModel):
+   data: List[conlist(str,min_items=1,max_items=1)]
 from fastapi import FastAPI
 
 import nltk
