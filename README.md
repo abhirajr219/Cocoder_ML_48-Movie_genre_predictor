@@ -37,3 +37,20 @@ In main.py, which is for the deployment' the following are installed
 #EXPLANATION
 --------------------
 
+
+FAQS
+--------------------
+1. Why is the accuracy rate so average?
+   The prediction is efficient enough to give an accuary rate of approx 90 %. But during scraping the plot datas from wikipedia, we need to minimise the features in the training datasets. This happens since we use portstemmer for the plot exctracted. 
+   
+2. Can we deploy this using a permanent url in fastapi?
+  Sure. We can deploy fastapi using Herku and many other platforms.
+  
+#STATUS
+-----------------
+It's completed till the deplyment using fastapi
+
+#Acknowledgement
+----------------
+This project is done as a part of an event named Co-coder by Tinkerhub. It's a great opportunity to start with ML. 
+
