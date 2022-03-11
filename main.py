@@ -1,4 +1,4 @@
-heroku create myapp --buildpack heroku/python
+
 
 %%writefile models.py
  from pydantic import BaseModel,conlist
