@@ -40,7 +40,7 @@ A summarised idea is discussed here :
 1. Necassary dataset is downloaded
 2. Different genres are represented as a dictonary : genre_mapper = {'other': 0, 'action': 1, 'adventure': 2, 'comedy':3,'drama':4, 'horror':5, 'romance':6, 'sci-fi':7, 'thriller': 8}
 3.  corpus list is declared 
-4.  portstemmer is called and the following steps are performed: a.<br/> Cleaning special character from the dialog/script b.<br/> Converting the entire dialog/script into lower case c.<br/> Tokenizing the dialog/script by words d.<br/> Removing the stop words e.<br/> Stemming the words f.<br/> Joining the stemmed words g.<br/> Creating a corpus
+4.  portstemmer is called and the following steps are performed:<br/> a. Cleaning special character from the dialog/script<br/> b.Converting the entire dialog/script into lower case<br/> c. Tokenizing the dialog/script by words<br/> d. Removing the stop words<br/> e. Stemming the words<br/> f. Joining the stemmed words<br/> g. Creating a corpus
 5. Datas for training and testing are splited using train_test_split
 6. from sklearn.naive_bayes import MultinomialNB
 7. Converting to a pickle file 
